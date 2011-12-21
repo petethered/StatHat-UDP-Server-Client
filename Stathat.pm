@@ -7,7 +7,7 @@ use warnings;
 use IO::Socket ();
 
 our $Stathat_HOST = 'localhost';
-our $Stathat_PORT = 12398;
+our $Stathat_PORT = 12321;
 our $Stathat_EMAIL = 'demo@stathat.com';
 
 sub send {
