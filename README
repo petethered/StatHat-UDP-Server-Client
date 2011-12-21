@@ -2,6 +2,20 @@ Simple UDP Server/Client for passing events to StatHat.com
 
 ---
 
-stathat_udp_server.pl
-Stathat.pm
+stathat_udp_server.pl - The UDP Server
+Stathat.pm - The Perl module
+test.pl - A simple test program
+
+
+---
+
+Usage:
+
+Edit stathat_udp_server.pl and change the port from 12321 to whatever you would like.
+
+Start the server ( perl  stathat_udp_server.pl &  )
+
+Edit Stathat.pm to change the defaults
+
+Read the test program to see how to use module
 
